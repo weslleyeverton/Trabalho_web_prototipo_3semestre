@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: linear-gradient(75deg, #ff5200,#FF7F00);
+    overflow-x: hidden;
+}
+h4{
+    font-size: 1.5em;
+    margin-top: -200px;
+    color: #ffffff;
+}
+/*Cabeça do site*/
+.header{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 110px;
+  
+}
+.nome-logo, .menu a{
+    color: #ffffff;}
+
+.nome-logo{
+    font-size: 40px;
+}
+.logo{
+    margin-top: 10px;
+}
+a{
+    margin-left: 60px;
+}
+.menu{  
+    margin-top: 12px;
+    margin-left: 37.9%;
+    display: flex;
+}
+.logo:hover{
+    transition: .3s;
+    transform: scale(1.05);
+}
+.menu a:hover{
+    transition: .6s;
+    transform: scale(1.09);
+}
+
+section{
+    /*position: relative;*/
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    max-width: 300px;
+}
+section h2{
+    position: absolute;
+    margin-top: -16%;
+    font-size: 6em;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+/*Configuraçoes d todas div box*/
+.box,.box2, .box3{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    padding-left: 100px;
+}
+.box4{
+    position: relative;
+    width: 100%;
+    min-height: 8vh;
+    padding: 100px;
+}
+.box{
+    background:#57007e;}
+.box2{
+    background:#900c3f;}
+.box3{
+    background:#c70039;}
+.box4{
+    background:#ff5733;}
+
+/*Configuraçoes dos paragrafos*/
+.paragrafo{
+    position: relative;
+    display: flex;
+    width: 55%;
+    font-size: 22px;
+    line-height: 35px;
+    color: white;
+    margin-top: -4%;
+    margin-left: 35%;
+}
+.paragrafo2{
+    position: relative;
+    display: flex;
+    width: 50%;
+    line-height: 35px;
+    font-size: 22px;
+    color: white;
+    margin-top: -24%;
+}
+.paragrafo3{
+    position: relative;
+    display: flex;
+    width: 55%;
+    font-size: 22px;
+    color: white;
+    margin-top: -20%;
+    margin-left: 35%;
+}
+
+/*Tamanho e ajuste dos titulos*/
+.box h2, .box2 h2, .box3 h2{
+    font-size: 3em;
+    color: #ffffff;
+}
+.box h3,.box2 h3,.box3 h3 {
+    color: #ffffff;
+    font-size: 1.4em;
+    letter-spacing: 3px;
+}
+.box2 .text4{
+    margin-top: 30px;
+}
+.box3 .text7{
+    margin-top: 10px;
+}
+.box3 {
+    margin-top: 30px ;
+}
+
+/*Tamanho do icone-svg, e background-box*/
+.box .svg{
+    max-width: 400px;
+}
+.box2 .svg-esporte{
+    margin-left:50%; 
+    max-width: 400px;
+}
+.box3 .svg-compra{
+    max-width: 410px;
+    margin-left: -60px;
+}
+
+.box-svg:hover,.box-svg2:hover,.box-svg3:hover{
+    transform: scale(1.02);
+    transition: .4s linear;
+    
+}
+.box-svg{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: -60px;
+}
+.box-svg,.box-svg2,.box-svg3{
+    animation: move1 1s 3s ease-out infinite alternate;
+}
+@keyframes move1{ 
+    from{
+        transform: translateY(17px);
+    }
+}
+
+/*responsivo*/
+
+@media screen and (max-width:1100px)
+{
+    .box,.box2,.box3,.box4
+  {
+    flex: 50%;
+  }
+}

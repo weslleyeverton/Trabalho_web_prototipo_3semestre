@@ -1,0 +1,85 @@
+*{
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    overflow:hidden ;
+    background: url(/html/img/compras/compra-online.jpg) no-repeat center top fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*background: linear-gradient(75deg, #303841, #00adb5,#dcedc1);*/
+    min-height: 100vh;
+}
+h1{
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.opaca{
+    opacity: 40%;
+    background: linear-gradient(45deg, #000000, #3a4750);
+    position: absolute;
+    width: 120%;
+    min-height: 200%;
+    margin-top: -10%;
+    margin-left: -9.7%;
+}
+
+.container{
+    position: relative;
+    text-align: center;
+    padding: 30px;
+    height: 370px;
+    width: 300px;
+    background: linear-gradient(25deg, #ff5200,#FFA500);
+    box-shadow: 0px 1px 35px 0px rgba(0,0,0,0.3);
+}
+input{
+    padding-left: 10px;
+    box-sizing: border-box;
+    outline: none;
+    display: block;
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    border: #ffffff;
+}
+label{
+    text-transform: uppercase;
+    color: #ffffff;
+    float: left;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.button{
+    margin-top: 35px;
+    display: flex;
+    width: 100%;
+    border: #979797;
+    transition: all 0.3s;
+}
+.button:hover{
+    background: linear-gradient(25deg, #84142d, #c02739);
+    transform: scale(1.03);
+}
+.btn{
+    background: #CFCFCF;
+    border: none;
+    margin: 1px;
+    height: 40px;
+    width: 100%;
+    transition: .3s;
+}
+.btn:hover{
+    background:#9C9C9C;    
+}

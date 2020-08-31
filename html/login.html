@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/html/css/login.css">
+    <title>login</title>
+</head>
+<body>
+    <div class="opaca">
+        <div></div>
+    </div>
+    <div class="container">
+        <form action=""> 
+            <h1>Criar Conta</h1>
+            <label for="">nome:</label>
+                <input type="text" class="nome" id="nome" placeholder="Nome de usuario" required>
+
+            <label for="">email:</label>
+                <input type="email" class="email" id="email" placeholder="Digite seu e-mail" required >
+
+            <label for="">senha:</label>
+                <input type="password" class="senha" placeholder="senha" required>
+            <div class="button">
+                <button class="btn" onclick="guardanome()" type="submit">ENTRAR</button>
+                <!--<button class="btn" onclick="pagina()">verificar</button>-->
+            </div>
+        </form>
+       
+    </div>
+    <script src="/html/js/login.js"></script>
+</body>
+</html>
